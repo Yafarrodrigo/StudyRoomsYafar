@@ -9,7 +9,11 @@ conn.sync({ force: createMockData })
 
     server.listen(process.env.PORT, async () => {
 
-      createMockData && await createTestData();
+      try {
+        createMockData && await createTestData();
+      } catch (error) {
+        console.log(error)
+      }
 
       console.log('--------------------------------');
       // console.log('creada el mockup de datos');
