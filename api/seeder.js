@@ -5,7 +5,7 @@ const { AUTH_SECRET } = require('./src/CONSTANTS.js')
 const testData = require('./testData.json')
 const { Category } = require('./src/db.js')
 
-const mockURL = process.env.DB_LOCALHOST3001 || "https://studyrooms-deploy.herokuapp.com";
+const mockURL = process.env.DB_LOCALHOST3001 || "https://studyroomsbackend.onrender.com/";
 
 // axios.defaults.baseURL = process.env. || "http://localhost:3001";
 
