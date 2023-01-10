@@ -2,7 +2,7 @@ const OAuth2Strategy = require('passport-google-oauth2')
 const { User } = require('../db.js')
 const { CLIENT_ID, CLIENT_SECRET } = require('../CONSTANTS.js')
 
-const mockURL = process.env.DB_LOCALHOST3001 || "https://studyrooms-deploy.herokuapp.com"
+const mockURL = process.env.DB_LOCALHOST3001 || "https://studyroomsbackend.onrender.com"
 
 const googleAuthMiddleware = new OAuth2Strategy({
     clientID: CLIENT_ID,
