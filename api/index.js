@@ -21,8 +21,6 @@ conn.sync({ force: createMockData })
     });
   })
 
-// comentario de modificacion para validar delpoy en Heroku desde la branch develop , VALIDADA.
-// AHORA CADA PUSH EN LA BRANCH DEVELOP DESPLIEGA EN HEROKU
 /*     ..---..
      .'  _    `.
  __..'  (o)    :    LES DEJO UN PATO

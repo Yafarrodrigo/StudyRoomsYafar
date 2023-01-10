@@ -32,7 +32,7 @@ export const LandingPage = () => {
   }
   function handleGoogleLogin(e) {
     e.preventDefault()
-    window.open('https://studyrooms-deploy.herokuapp.com/users/google/login', '_self')
+    window.open('https://studyroomsbackend.onrender.com/users/google/login', '_self')
   }
   function handleRecovery(e) {
     if (e.target.name === "recoveryPass") {

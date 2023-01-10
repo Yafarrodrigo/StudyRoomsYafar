@@ -4,7 +4,7 @@ const { User } = require('../db.js')
 const sendMail = require('./mailer.js')
 
 const { AUTH_SECRET, ACTIVATION_SECRET, RECOVERY_SECRET, FRONT_URL } = require('../CONSTANTS.js')
-const mockURL = process.env.DB_LOCALHOST3001 || "https://studyrooms-deploy.herokuapp.com"
+const mockURL = process.env.DB_LOCALHOST3001 || "https://studyroomsbackend.onrender.com"
 
 const signUp = async (req, res) => {
 
